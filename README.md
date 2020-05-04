@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # MeanFieldERGM
 Replication files for Mele and Zhu (2020) - Approximate variational estimation for a model of network formation
@@ -41,7 +41,7 @@ The tables in the paper with Monte Carlo estimation exercises were obtained with
 ***Small networks*** with $n<500$ use: [parallel_monte_carlo.R](parallel_monte_carlo.R)  
 This code simulates many networks and estimate the parameters. This is all done in parallel but the output for each network is not saved. The final output with all the simulations is saved.   
 
-***Larger networks*** with $n\geq 500$ use:[parallel_monte_carlo_large.R](parallel_monte_carlo_large.R)
+***Larger networks*** with $n\geq 500$ use: [parallel_monte_carlo_large.R](parallel_monte_carlo_large.R)  
 This code works as the previous one. However, since it takes significantly longer to simulate networks and estimate the models, it saves each network and output of estimation. 
 
 
