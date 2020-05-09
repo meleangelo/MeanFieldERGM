@@ -36,7 +36,7 @@ install_github("meleangelo/mfergm")
 
 ## Monte Carlo code for estimation
 
-The tables in the paper with Monte Carlo estimation exercises were obtained with the following code:  
+The Monte Carlo estimation exercises were obtained with the following code:  
 
 ***Small networks*** with $n<500$ use: [parallel_monte_carlo.R](parallel_monte_carlo.R)  
 This code simulates many networks and estimate the parameters. This is all done in parallel but the output for each network is not saved. The final output with all the simulations is saved.   
@@ -49,4 +49,9 @@ This code works as the previous one. However, since it takes significantly longe
 
 ***NOTE:*** the simulations may run for long time. Estimation with $n=1000$ running on a Windows machine with 40 cores takes about 1 day.
 
+## Tables for Monte Carlo in the paper
 
+The tables in the paper are created with the following code:
+
+***Tables***: [tables_montecarlo.R](tables_montecarlo.R)    
+This code generates the tables in the main text of the paper.
