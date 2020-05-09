@@ -6,8 +6,8 @@ rm(list=ls())
 
 #### monte carlo inputs
 nplayers <- 1000  # number of players
-true_parameters <- c(-3,1,2,1) # true parameter vector
-number_of_simulations <- 2 #100  # number of simulations
+true_parameters <- c(-3,1,2,3) # true parameter vector
+number_of_simulations <- 500 #100  # number of simulations
 number_of_initializations <- 1 # number of times to re-start from random mu
 
 ### save estimation results in data.frame
